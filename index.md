@@ -6,68 +6,61 @@
 
 **Find Who You Need**
 
-SwapMatch is a proximity-based marketplace for connecting with nearby people who can offer, receive, or swap goods and services.
+A decentralized proximity marketplace for connecting with nearby people who have what you need — and need what you have.
 
-Built for local discovery.  
-Designed for anonymity.  
-Made to help create real-world Bitcoin communities.
+SwapMatch helps people discover local goods and services through simple nearby matching, with privacy and anonymity at the center.
+
+[Privacy Policy](./privacy) · [Terms of Service](./terms)
 
 ---
 
-## How It Works
+## What You Can Do
 
 ### Offer
-List something you can provide.
+Post goods or services you can provide.
 
 ### Receive
-List something you need.
+Post goods or services you are looking for.
 
 ### Swap
-Connect when what you offer and what you need overlap with someone nearby.
-
-SwapMatch helps people find useful local connections without requiring public profiles or social networking.
+Find nearby people whose needs and offers align with yours.
 
 ---
 
-## Why SwapMatch Exists
+## Built Differently
 
-Modern marketplaces are crowded, noisy, and built around identity, feeds, and endless scrolling.
+SwapMatch is not a social platform.  
+It is not built around profiles, feeds, likes, or follower counts.
 
-SwapMatch is different.
+It is built around useful local connection.
 
-It is designed to help you discover nearby people based on actual wants and offers — not followers, not status, not performative profiles.
+- Anonymous device-based identity
+- Nearby radius matching
+- Simple item-based discovery
+- Optional contact sharing only when you choose
 
-The goal is simple:
+---
+
+## Why It Matters
+
+Local exchange is powerful.
+
+When people nearby can find each other for goods, services, and swapping used items, stronger communities can form naturally.
+
+SwapMatch exists to make that easier.
 
 **Find who you need.**
 
 ---
 
-## Privacy First
+## Launching Soon
 
-SwapMatch is built with a minimal-data approach.
+SwapMatch is preparing for public release.
 
-- No traditional account signup
-- No public user profiles
-- Device-based anonymous identity
-- Location used only for proximity matching
-- Phone number shared only when you explicitly choose to share it
-
-Read the full [Privacy Policy](./privacy) and [Terms of Service](./terms).
-
----
-
-## Coming Soon
-
-- Android release on Google Play
-- Public launch support materials
-- Screenshots and walkthroughs
-- Bitcoin-community meetup launch
+More details, screenshots, and store links will be posted here soon.
 
 ---
 
 ## Contact
 
-For questions, support, or launch interest:
-
-**support@swapmatch.app**
+Support: **support@swapmatch.app**
