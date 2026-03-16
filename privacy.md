@@ -57,7 +57,3 @@ Users may delete their data by **uninstalling the application**, which removes t
 If you have questions about this Privacy Policy, you may contact:
 
 **SwapMatch@proton.me**
-
----
-
-_Last updated: January 2025_
