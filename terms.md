@@ -55,7 +55,3 @@ SwapMatch is provided **"as is"** without warranty of any kind.
 The developers of SwapMatch are not responsible for disputes, damages, or outcomes resulting from interactions between users.
 
 We reserve the right to update these terms as the service evolves.
-
----
-
-_Last updated: January 2025_
