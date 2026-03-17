@@ -1,9 +1,5 @@
----
-layout: default
----
-
 <div class="hero">
-  <img src="/assets/images/logo.png" alt="SwapMatch Logo" />
+  <img src="/SwapMatch-Home/assets/images/logo.png" alt="SwapMatch Logo" />
   <h1>SwapMatch</h1>
   <h3>Offer · Receive · Swap</h3>
   <p><strong>Find Who You Need — Nearby</strong></p>
@@ -60,15 +56,15 @@ layout: default
 <section>
   <h2>App Preview</h2>
   <div class="screenshots">
-    <img src="/assets/images/screenshot1.jpg" alt="Screenshot 1" />
-    <img src="/assets/images/screenshot2.jpg" alt="Screenshot 2" />
-    <img src="/assets/images/screenshot3.jpg" alt="Screenshot 3" />
-    <img src="/assets/images/screenshot4.jpg" alt="Screenshot 4" />
-    <img src="/assets/images/screenshot5.jpg" alt="Screenshot 5" />
-    <img src="/assets/images/screenshot6.jpg" alt="Screenshot 6" />
-    <img src="/assets/images/screenshot4.jpg" alt="Screenshot 7" />
-    <img src="/assets/images/screenshot5.jpg" alt="Screenshot 8" />
-    <img src="/assets/images/screenshot6.jpg" alt="Screenshot 9" />
+    <img src="/SwapMatch-Home/assets/images/screenshot1.jpg" alt="Screenshot 1" />
+    <img src="/SwapMatch-Home/assets/images/screenshot2.jpg" alt="Screenshot 2" />
+    <img src="/SwapMatch-Home/assets/images/screenshot3.jpg" alt="Screenshot 3" />
+    <img src="/SwapMatch-Home/assets/images/screenshot4.jpg" alt="Screenshot 4" />
+    <img src="/SwapMatch-Home/assets/images/screenshot5.jpg" alt="Screenshot 5" />
+    <img src="/SwapMatch-Home/assets/images/screenshot6.jpg" alt="Screenshot 6" />
+    <img src="/SwapMatch-Home/assets/images/screenshot4.jpg" alt="Screenshot 7" />
+    <img src="/SwapMatch-Home/assets/images/screenshot5.jpg" alt="Screenshot 8" />
+    <img src="/SwapMatch-Home/assets/images/screenshot6.jpg" alt="Screenshot 9" />
   </div>
 </section>
 
@@ -78,6 +74,13 @@ layout: default
     SwapMatch is preparing for public release.  
     More details, screenshots, and store links will be posted here soon.
   </p>
+</section>
+
+<section>
+  <h2>For now, enjoy the SwapMatch Dragons!</h2>
+  <video autoplay muted loop playsinline style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <source src="/SwapMatch-Home/assets/videos/SwapMatch_Dragons.mp4" type="video/mp4">
+</video>
 </section>
 
 <section>
