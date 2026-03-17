@@ -64,6 +64,9 @@
     <img src="/SwapMatch-Home/assets/images/screenshot4.jpg" alt="Screenshot 4" />
     <img src="/SwapMatch-Home/assets/images/screenshot5.jpg" alt="Screenshot 5" />
     <img src="/SwapMatch-Home/assets/images/screenshot6.jpg" alt="Screenshot 6" />
+    <img src="/SwapMatch-Home/assets/images/screenshot7.jpg" alt="Screenshot 7" />
+    <img src="/SwapMatch-Home/assets/images/screenshot8.jpg" alt="Screenshot 8" />
+    <img src="/SwapMatch-Home/assets/images/screenshot9.jpg" alt="Screenshot 9" />
   </div>
 </section>
 
