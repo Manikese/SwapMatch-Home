@@ -47,6 +47,14 @@ body {
   }
 }
 
+/* Parallax scroll effect for hero */
+.hero {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Hero Banner */
 .hero {
   text-align: center;
