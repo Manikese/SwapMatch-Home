@@ -81,7 +81,7 @@
 <section>
   <h2>For now, enjoy the SwapMatch Dragons!</h2>
   <video autoplay muted loop playsinline style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
-    <source src="/SwapMatch-Home/assets/videos/SwapMatch_Dragons.mp4" type="video/mp4">
+    <source src="/SwapMatch-Home/assets/videos/SwapMatch_Dragons.MP4" type="video/mp4">
   </video>
 </section>
 
