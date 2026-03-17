@@ -87,3 +87,17 @@
   <h2>Contact</h2>
   <p>Support: <strong>SwapMatch@proton.me</strong></p>
 </section>
+
+<section class="download-section">
+  <h2>Coming Soon</h2>
+  <p>SwapMatch will be available on the App Store and Google Play.</p>
+
+  <div class="download-buttons">
+    <img src="/assets/images/appstore-placeholder.png" alt="App Store badge" />
+    <img src="/assets/images/googleplay-placeholder.png" alt="Google Play badge" />
+  </div>
+
+  <p style="opacity: 0.6; font-size: 0.85rem;">
+    (Badges will activate once the app is published)
+  </p>
+</section>
