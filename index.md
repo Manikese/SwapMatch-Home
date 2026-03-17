@@ -90,8 +90,7 @@
   <p>SwapMatch will be available on the App Store and Google Play.</p>
 
   <div class="download-buttons">
-    <img src="/SwapMatch-Home/assets/images/appstore-placeholder.png" alt="App Store badge" />
-    <img src="/SwapMatch-Home/assets/images/googleplay-placeholder.png" alt="Google Play badge" />
+    <img src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg" />
   </div>
 
   <p style="opacity: 0.6; font-size: 0.85rem;">
