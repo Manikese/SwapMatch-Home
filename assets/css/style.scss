@@ -1,48 +1,87 @@
----
----
+/* SwapMatch Custom Theme */
 
-/* Warm, friendly color palette */
-$primary: #4CAF50;      /* Friendly green */
-$secondary: #FFB74D;    /* Warm orange */
-$background: #FFF8E7;   /* Soft cream */
-$text: #333;
+/* Color palette */
+:root {
+  --background: #FAF7F2;
+  --primary: #4CAF50;
+  --secondary: #FF8A65;
+  --highlight: #42A5F5;
+  --text: #333333;
+  --card-bg: #FFFFFF;
+}
 
-/* Override Cayman theme */
+/* Global */
 body {
-  background: $background;
-  color: $text;
+  background: var(--background);
+  color: var(--text);
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
-  color: $primary;
-  font-weight: 700;
+/* Subtle animated gradient for hero */
+@keyframes heroGradient {
+  0% {
+    background: linear-gradient(135deg, var(--secondary), var(--highlight));
+  }
+  50% {
+    background: linear-gradient(135deg, var(--highlight), var(--primary));
+  }
+  100% {
+    background: linear-gradient(135deg, var(--secondary), var(--highlight));
+  }
 }
 
-a {
-  color: $secondary;
-  font-weight: 600;
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-section {
-  margin: 3rem auto;
-  max-width: 900px;
-  padding: 1rem 2rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
-
+/* Hero Banner */
 .hero {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
+  color: white;
+  animation: heroGradient 12s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* soft drop shadow */
 }
 
 .hero img {
   width: 140px;
   margin-bottom: 1rem;
+  border-radius: 20px; /* rounded corners */
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
 }
 
+.hero h1 {
+  margin: 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Sections */
+section {
+  margin: 2.5rem auto;
+  max-width: 900px;
+  padding: 1.5rem 2rem;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Screenshot grid */
 .screenshots {
   display: flex;
   flex-wrap: wrap;
@@ -54,4 +93,38 @@ section {
   width: 160px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Download section */
+.download-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.download-buttons img {
+  width: 160px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  opacity: 0.5; /* dim until links are ready */
+}
+
+section {
+  animation: fadeIn 0.9s ease-out;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: var(--primary);
+  color: white;
+  font-size: 0.9rem;
 }
