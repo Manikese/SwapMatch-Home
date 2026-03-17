@@ -1,0 +1,57 @@
+---
+---
+
+/* Warm, friendly color palette */
+$primary: #4CAF50;      /* Friendly green */
+$secondary: #FFB74D;    /* Warm orange */
+$background: #FFF8E7;   /* Soft cream */
+$text: #333;
+
+/* Override Cayman theme */
+body {
+  background: $background;
+  color: $text;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: $primary;
+  font-weight: 700;
+}
+
+a {
+  color: $secondary;
+  font-weight: 600;
+}
+
+section {
+  margin: 3rem auto;
+  max-width: 900px;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero img {
+  width: 140px;
+  margin-bottom: 1rem;
+}
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.screenshots img {
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
