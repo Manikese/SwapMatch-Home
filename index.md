@@ -101,3 +101,7 @@
     (Badges will activate once the app is published)
   </p>
 </section>
+
+<footer>
+  © 2026 SwapMatch — Building stronger communities together.
+</footer>
