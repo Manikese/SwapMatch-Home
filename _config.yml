@@ -1,3 +1,12 @@
 theme: jekyll-theme-cayman
+
 title: SwapMatch
 description: Build community. Exchange goods. Connect with neighbors.
+
+# Custom styling
+sass:
+  style: compressed
+
+# Include custom CSS
+include:
+  - assets/css/style.scss
