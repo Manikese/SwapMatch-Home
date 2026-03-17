@@ -36,6 +36,8 @@ SwapMatch is not responsible for user-generated content or for the outcome of an
 
 Users are solely responsible for ensuring that any items offered or requested comply with applicable laws.
 
+SwapMatch reserves the right to remove content that violates applicable laws or platform guidelines.
+
 ---
 
 ## 4. Contact Sharing
