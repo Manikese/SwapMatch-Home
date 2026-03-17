@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 
 title: SwapMatch
 description: Build community. Exchange goods. Connect with neighbors.
+author: Manikese
 
 # Custom styling
 sass:
