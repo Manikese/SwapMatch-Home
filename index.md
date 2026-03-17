@@ -1,66 +1,86 @@
-# SwapMatch
-
-## Offer · Receive · Swap
-
-### Search People Nearby
-
-**Find Who You Need**
-
-A decentralized proximity marketplace for connecting with nearby people who have what you need — and need what you have.
-
-SwapMatch helps people discover local goods and services through simple nearby matching, with privacy and anonymity at the center.
-
-[Privacy Policy](./privacy) · [Terms of Service](./terms)
-
+---
+layout: default
 ---
 
-## What You Can Do
+<div class="hero">
+  <img src="/assets/images/logo.png" alt="SwapMatch Logo" />
+  <h1>SwapMatch</h1>
+  <h3>Offer · Receive · Swap</h3>
+  <p><strong>Find Who You Need — Nearby</strong></p>
+</div>
 
-### Offer
-Post goods or services you can provide.
+<section>
+  <h2>Welcome to SwapMatch</h2>
+  <p>
+    SwapMatch is a decentralized proximity marketplace that helps people connect
+    with nearby neighbors who have what you need — and need what you have.
+  </p>
+  <p>
+    Built with privacy and anonymity at the center, SwapMatch makes local exchange
+    simple, safe, and community‑driven.
+  </p>
+  <p>
+    <a href="./privacy">Privacy Policy</a> · <a href="./terms">Terms of Service</a>
+  </p>
+</section>
 
-### Receive
-Post goods or services you are looking for.
+<section>
+  <h2>What You Can Do</h2>
 
-### Swap
-Find nearby people whose needs and offers align with yours.
+  ### Offer
+  Share goods or services you can provide.
 
----
+  ### Receive
+  Post what you're looking for and let nearby people help.
 
-## Built Differently
+  ### Swap
+  Match with neighbors whose needs and offers align with yours.
+</section>
 
-SwapMatch is not a social platform.  
-It is not built around profiles, feeds, likes, or follower counts.
+<section>
+  <h2>Built for Real Connection</h2>
+  <p>SwapMatch is not a social network. There are no profiles, feeds, likes, or follower counts.</p>
+  <p>Instead, it’s built around simple, useful local discovery.</p>
 
-It is built around useful local connection.
+  - Anonymous device‑based identity  
+  - Nearby radius matching  
+  - Item‑based discovery  
+  - Optional contact sharing only when you choose  
+</section>
 
-- Anonymous device-based identity
-- Nearby radius matching
-- Simple item-based discovery
-- Optional contact sharing only when you choose
+<section>
+  <h2>Why It Matters</h2>
+  <p>
+    Local exchange strengthens communities. When people nearby can find each other
+    for goods, services, and swapping used items, meaningful connections form naturally.
+  </p>
+  <p><strong>SwapMatch exists to make that easier.</strong></p>
+</section>
 
----
+<section>
+  <h2>App Preview</h2>
+  <div class="screenshots">
+    <img src="/assets/images/screenshot1.jpg" alt="Screenshot 1" />
+    <img src="/assets/images/screenshot2.jpg" alt="Screenshot 2" />
+    <img src="/assets/images/screenshot3.jpg" alt="Screenshot 3" />
+    <img src="/assets/images/screenshot4.jpg" alt="Screenshot 4" />
+    <img src="/assets/images/screenshot5.jpg" alt="Screenshot 5" />
+    <img src="/assets/images/screenshot6.jpg" alt="Screenshot 6" />
+    <img src="/assets/images/screenshot4.jpg" alt="Screenshot 7" />
+    <img src="/assets/images/screenshot5.jpg" alt="Screenshot 8" />
+    <img src="/assets/images/screenshot6.jpg" alt="Screenshot 9" />
+  </div>
+</section>
 
-## Why It Matters
+<section>
+  <h2>Launching Soon</h2>
+  <p>
+    SwapMatch is preparing for public release.  
+    More details, screenshots, and store links will be posted here soon.
+  </p>
+</section>
 
-Local exchange is powerful.
-
-When people nearby can find each other for goods, services, and swapping used items, stronger communities can form naturally.
-
-SwapMatch exists to make that easier.
-
-**Find who you need.**
-
----
-
-## Launching Soon
-
-SwapMatch is preparing for public release.
-
-More details, screenshots, and store links will be posted here soon.
-
----
-
-## Contact
-
-Support: **SwapMatch@proton.me**
+<section>
+  <h2>Contact</h2>
+  <p>Support: <strong>SwapMatch@proton.me</strong></p>
+</section>
