@@ -63,4 +63,4 @@ More details, screenshots, and store links will be posted here soon.
 
 ## Contact
 
-Support: **support@swapmatch.app**
+Support: **SwapMatch@proton.me**
