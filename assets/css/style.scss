@@ -1,161 +1,134 @@
 ---
 ---
-/* --------------------------------------------------
-   SwapMatch Theme
--------------------------------------------------- */
 
-/* ------------------------------
-   Design Tokens
------------------------------- */
+/* SwapMatch Custom Theme */
+
+/* Color palette */
 :root {
-  /* Colors */
-  --background: #FAF7F2;
-  --primary: #4CAF50;
-  --secondary: #FF8A65;
-  --highlight: #42A5F5;
-  --text: #333333;
-  --card-bg: #FFFFFF;
-
-  /* Spacing scale */
-  --space-xs: 0.5rem;
-  --space-sm: 1rem;
-  --space-md: 1.5rem;
-  --space-lg: 2.5rem;
-  --space-xl: 3rem;
-
-  /* Radii */
-  --radius-sm: 8px;
-  --radius-md: 10px;
-  --radius-lg: 12px;
-  --radius-xl: 20px;
-
-  /* Shadows */
-  --shadow-sm: 0 2px 6px rgba(0,0,0,0.08);
-  --shadow-md: 0 3px 10px rgba(0,0,0,0.25);
-  --shadow-lg: 0 4px 12px rgba(0,0,0,0.15);
-
-  /* Animation */
-  --fade-duration: 0.9s;
+   --background: #FAF7F2;
+   --primary: #4CAF50;
+   --secondary: #FF8A65;
+   --highlight: #42A5F5;
+   --text: #333333;
+   --card-bg: #FFFFFF;
 }
 
-/* ------------------------------
-   Global
------------------------------- */
+/* Global */
 body {
-  background: var(--background);
-  color: var(--text);
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+   background: var(--background);
+   color: var(--text);
+   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
-/* ------------------------------
-   Animations
------------------------------- */
+/* Subtle animated gradient for hero */
 @keyframes heroGradient {
-  0%   { background: linear-gradient(135deg, var(--secondary), var(--highlight)); }
-  50%  { background: linear-gradient(135deg, var(--highlight), var(--primary)); }
-  100% { background: linear-gradient(135deg, var(--secondary), var(--highlight)); }
+   0% {
+      background: linear-gradient(135deg, var(--secondary), var(--highlight));
+   }
+   50% {
+      background: linear-gradient(135deg, var(--highlight), var(--primary));
+   }
+   100% {
+      background: linear-gradient(135deg, var(--secondary), var(--highlight));
+   }
 }
 
+/* Fade-in animation */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: translateY(0); }
+   from {
+      opacity: 0;
+      transform: translateY(12px);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
 
-/* ------------------------------
-   Hero Section
------------------------------- */
+/* Hero Banner with Parallax scroll effect for hero */
 .hero {
-  position: relative;
-  padding: var(--space-xl) var(--space-sm);
-  text-align: center;
-  color: white;
-
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  animation: heroGradient 12s ease-in-out infinite;
-  box-shadow: var(--shadow-lg);
-
-  img {
-    width: 140px;
-    margin-bottom: var(--space-sm);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-md);
-  }
-
-  h1 {
-    margin: var(--space-xs) 0;
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
-
-  h3 {
-    margin: 0;
-    font-weight: 500;
-  }
+   position: relative;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding: 3rem 1rem;
+   color: white;
+   animation: heroGradient 12s ease-in-out infinite;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* soft drop shadow */
 }
 
-/* ------------------------------
-   Content Sections
------------------------------- */
-section {
-  max-width: 900px;
-  margin: var(--space-lg) auto;
-  padding: var(--space-md) var(--space-lg);
-  background: var(--card-bg);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  animation: fadeIn var(--fade-duration) ease-out;
+.hero img {
+   width: 140px;
+   margin-bottom: 1rem;
+   border-radius: 20px; /* rounded corners */
+   box-shadow: 0 3px 10px rgba(0,0,0,0.25);
 }
 
-/* ------------------------------
-   Screenshot Grid
------------------------------- */
+.hero h1 {
+   margin: 0.5rem 0;
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+.hero h3 {
+   margin: 0;
+   font-weight: 500;
+}
+
+/* Screenshot grid */
 .screenshots {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--space-sm);
-
-  img {
-    width: 160px;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
-  }
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
 }
 
-/* ------------------------------
-   Download Section
------------------------------- */
+.screenshots img {
+   width: 160px;
+   border-radius: 10px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Download section */
 .download-section {
-  text-align: center;
-  margin-top: var(--space-lg);
-
-  .download-buttons {
-    display: flex;
-    justify-content: center;
-    gap: var(--space-sm);
-    margin-top: var(--space-sm);
-
-    img {
-      width: 160px;
-      border-radius: var(--radius-sm);
-      box-shadow: var(--shadow-sm);
-      opacity: 0.5;
-    }
-  }
+   text-align: center;
+   margin-top: 2rem;
 }
 
-/* ------------------------------
-   Footer
------------------------------- */
+.download-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.download-buttons img {
+   width: 160px;
+   border-radius: 8px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+   opacity: 0.5; /* dim until links are ready */
+}
+
+/* Sections */
+section {
+   animation: fadeIn 0.9s ease-out;
+   margin: 2.5rem auto;
+   max-width: 900px;
+   padding: 1.5rem 2rem;
+   background: var(--card-bg);
+   border-radius: 12px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Footer */
 footer {
-  text-align: center;
-  padding: var(--space-lg);
-  margin-top: var(--space-xl);
-  background: var(--primary);
-  color: white;
-  font-size: 0.9rem;
+   text-align: center;
+   padding: 2rem;
+   margin-top: 3rem;
+   background: var(--primary);
+   color: white;
+   font-size: 0.9rem;
 }
