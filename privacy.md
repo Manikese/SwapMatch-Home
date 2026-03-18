@@ -1,3 +1,14 @@
+---
+layout: default
+title: Privacy Policy
+---
+
+<div class="hero">
+  <h1>Privacy Policy</h1>
+</div>
+
+<section>
+
 # Privacy Policy for SwapMatch
 
 **Effective Date:** March 16, 2026
@@ -57,3 +68,5 @@ Users may delete their data by **uninstalling the application**, which removes t
 If you have questions about this Privacy Policy, you may contact:
 
 **SwapMatch@proton.me**
+
+</section>
