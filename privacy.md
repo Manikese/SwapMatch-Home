@@ -1,8 +1,3 @@
----
-layout: default
-title: Privacy Policy
----
-
 <div class="hero">
   <img src="/SwapMatch-Home/assets/images/logo.png" alt="SwapMatch Logo" />
   <h1>SwapMatch</h1>
