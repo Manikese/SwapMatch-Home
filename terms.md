@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Service
+---
+
 <div class="hero">
   <img src="/SwapMatch-Home/assets/images/logo.png" alt="SwapMatch Logo" />
   <h1>SwapMatch</h1>
@@ -51,3 +56,38 @@
     Users are solely responsible for ensuring that any items offered or requested comply with applicable laws.
   </p>
 
+  <p>
+    SwapMatch reserves the right to remove content that violates applicable laws or platform guidelines.
+  </p>
+
+  <hr />
+
+  <h2>4. Contact Sharing</h2>
+
+  <p>
+    Phone numbers are shared only when a user explicitly chooses to share contact information with a match.
+  </p>
+
+  <p>
+    Once contact information has been shared, further communication occurs outside the SwapMatch platform.
+  </p>
+
+  <p>
+    SwapMatch is not responsible for interactions that occur after contact information is exchanged.
+  </p>
+
+  <hr />
+
+  <h2>5. Disclaimer</h2>
+
+  <p>
+    SwapMatch is provided <strong>"as is"</strong> without warranty of any kind.
+  </p>
+
+  <p>
+    The developers of SwapMatch are not responsible for disputes, damages, or outcomes resulting from interactions between users.
+  </p>
+
+  <p>We reserve the right to update these terms as the service evolves.</p>
+
+</section>
