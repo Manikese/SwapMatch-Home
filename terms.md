@@ -1,3 +1,14 @@
+---
+layout: default
+title: Terms of Service
+---
+
+<div class="hero">
+  <h1>Terms of Service</h1>
+</div>
+
+<section>
+
 # Terms of Service for SwapMatch
 
 **Effective Date:** March 16, 2026
@@ -57,3 +68,5 @@ SwapMatch is provided **"as is"** without warranty of any kind.
 The developers of SwapMatch are not responsible for disputes, damages, or outcomes resulting from interactions between users.
 
 We reserve the right to update these terms as the service evolves.
+
+</section>
