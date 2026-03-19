@@ -16,7 +16,7 @@
     simple, safe, and community‑driven.
   </p>
   <p>
-    <a href="./privacy">Privacy Policy</a> · <a href="./terms">Terms of Service</a> · <a href="./data-deletion">Data Deletion</a>
+    <a href="./privacy">Privacy Policy</a> · <a href="./terms">Terms of Service</a> · <a href="./data-deletion">Data Deletion</a> · <a href="./safety">Safety</a>
   </p>
 </section>
 
