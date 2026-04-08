@@ -9,7 +9,7 @@
 
 <p>If you need help, have questions, or want to report an issue, please contact us:</p>
 
-<p><strong>Email:</strong> swapmatch@proton.me</p>
+<p>Email: <strong>SwapMatch@proton.me</strong></p>
 
 <p>We aim to respond within 24 hours.</p>
 
@@ -31,7 +31,7 @@ Yes. There are no accounts. Users are identified anonymously via a device ID.
 
 <p>
 <strong>How do I report a problem?</strong><br>
-Email us at swapmatch@proton.me
+Email us at <strong>SwapMatch@proton.me</strong>
 </p>
 
 </section>
