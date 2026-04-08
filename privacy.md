@@ -1,5 +1,5 @@
 <div class="hero">
-  <a href="../"><img src="/SwapMatch-Home/assets/images/logo.png" alt="SwapMatch Logo" /></a>
+  <a href="../SwapMatch-Home/"><img src="/SwapMatch-Home/assets/images/logo.png" alt="SwapMatch Logo" /></a>
   <h1>SwapMatch</h1>
 </div>
 
