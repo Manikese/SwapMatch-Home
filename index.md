@@ -71,14 +71,6 @@
 </section>
 
 <section>
-  <h2>Launching Soon</h2>
-  <p>
-    SwapMatch is preparing for public release.
-    More details, screenshots, and store links will be posted here soon.
-  </p>
-</section>
-
-<section>
   <h2>The app has officially been published to Apple App Store and Google Play Store!  As promised, we will not remove the 
     SwapMatch Dragons.  Here they are!  If you think of some good names for them, please send us an email and let us know!</h2>
   <video autoplay muted loop playsinline style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
