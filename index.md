@@ -78,7 +78,7 @@
   </video>
 </section>
 
-<section id="download-section" class="download-section">
+<section id="download-section">
   <h2>Download Now</h2>
   <p>Get SwapMatch on your mobile device.</p>
 
@@ -104,6 +104,7 @@
     const isMobile = isAndroid || isIOS;
     if (!isMobile) {
       // no need to be in the function if the section will remain hidden
+      section.style.display = "none";
       return;
     }
     
@@ -116,9 +117,6 @@
 
     const section = document.getElementById("download-section");
     const storeLink = document.getElementById("store-link");
-    
-    // Show the download link for mobile devices
-    section.style.display = "block";
     
     // Set correct store link
     if (isAndroid) {
