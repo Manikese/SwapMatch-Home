@@ -119,7 +119,7 @@
     const section = document.getElementById("download-section");
     const storeLink = document.getElementById("store-link");
 
-    if (!isMobile) {
+    if (isMobile) {
       section.style.display = "block";
       return;
     }
