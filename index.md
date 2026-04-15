@@ -86,18 +86,77 @@
 </section>
 
 <section class="download-section">
-  <h2>Coming Soon</h2>
-  <p>SwapMatch will be available on the App Store and Google Play.</p>
+  <h2>Download Now</h2>
+  <p>Get SwapMatch on your mobile device.</p>
 
   <div class="download-buttons">
-    <img src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg" />
+    <a
+      id="store-link"
+      href="https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Download SwapMatch"
+    >
+      <img
+        src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg"
+        alt="Download on the App Store or get it on Google Play"
+      />
+    </a>
   </div>
 
   <p style="opacity: 0.6; font-size: 0.85rem;">
-    (Badges will activate once the app is published)
+    Tap the badge to open the correct app store for your device.
+  </p>
+</section>
+
+<section class="download-section">
+  <h2>Download Now</h2>
+  <p>Get SwapMatch on your mobile device.</p>
+
+  <div class="download-buttons">
+    <a
+      id="store-link"
+      href="https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Download SwapMatch"
+    >
+      <img
+        src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg"
+        alt="Download on the App Store or get it on Google Play"
+      />
+    </a>
+  </div>
+
+  <p style="opacity: 0.6; font-size: 0.85rem;">
+    Tap the badge to open the correct app store for your device.
   </p>
 </section>
 
 <footer>
   © 2026 SwapMatch — Building stronger communities together.
 </footer>
+
+<script>
+  (function () {
+    const appleUrl = "https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778";
+    const androidUrl = "https://play.google.com/store/apps/details?id=com.swapmatch.app";
+
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const storeLink = document.getElementById("store-link");
+
+    const isAndroid = /android/i.test(userAgent);
+    const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+
+    if (isAndroid) {
+      storeLink.href = androidUrl;
+    } else if (isIOS) {
+      storeLink.href = appleUrl;
+    } else {
+      // Desktop or unknown device: choose your preferred default
+      storeLink.href = appleUrl;
+    }
+  })();
+</script>
+
+
