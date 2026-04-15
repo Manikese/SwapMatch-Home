@@ -79,13 +79,14 @@
 </section>
 
 <section>
-  <h2>For now, enjoy the SwapMatch Dragons!</h2>
+  <h2>The app has officially been published to Apple App Store and Google Play Store!  As promised, we will not remove the 
+    SwapMatch Dragons.  Here they are!  If you think of some good names for them, please send us an email and let us know!</h2>
   <video autoplay muted loop playsinline style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
     <source src="/SwapMatch-Home/assets/videos/SwapMatch_Dragons.MP4" type="video/mp4">
   </video>
 </section>
 
-<section class="download-section">
+<section id="download-section" class="download-section">
   <h2>Download Now</h2>
   <p>Get SwapMatch on your mobile device.</p>
 
@@ -95,42 +96,10 @@
       href="https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Download SwapMatch"
     >
-      <img
-        src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg"
-        alt="Download on the App Store or get it on Google Play"
-      />
+      <img src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg" />
     </a>
   </div>
-
-  <p style="opacity: 0.6; font-size: 0.85rem;">
-    Tap the badge to open the correct app store for your device.
-  </p>
-</section>
-
-<section class="download-section">
-  <h2>Download Now</h2>
-  <p>Get SwapMatch on your mobile device.</p>
-
-  <div class="download-buttons">
-    <a
-      id="store-link"
-      href="https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Download SwapMatch"
-    >
-      <img
-        src="/SwapMatch-Home/assets/images/app-store-and-google-play-badges4324.jpg"
-        alt="Download on the App Store or get it on Google Play"
-      />
-    </a>
-  </div>
-
-  <p style="opacity: 0.6; font-size: 0.85rem;">
-    Tap the badge to open the correct app store for your device.
-  </p>
 </section>
 
 <footer>
@@ -143,20 +112,24 @@
     const androidUrl = "https://play.google.com/store/apps/details?id=com.swapmatch.app";
 
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    const storeLink = document.getElementById("store-link");
-
     const isAndroid = /android/i.test(userAgent);
     const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+    const isMobile = isAndroid || isIOS;
 
+    const section = document.getElementById("download-section");
+    const storeLink = document.getElementById("store-link");
+
+    if (!isMobile) {
+      section.style.display = "block";
+      return;
+    }
+
+    // Set correct store link
     if (isAndroid) {
       storeLink.href = androidUrl;
-    } else if (isIOS) {
-      storeLink.href = appleUrl;
     } else {
-      // Desktop or unknown device: choose your preferred default
       storeLink.href = appleUrl;
     }
   })();
 </script>
-
 
