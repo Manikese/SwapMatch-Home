@@ -103,6 +103,7 @@
 
     const isMobile = isAndroid || isIOS;
     if (!isMobile) {
+      console.log('setting display to none'); // Logs a message
       // no need to be in the function if the section will remain hidden
       section.style.display = "none";
       return;
@@ -117,6 +118,16 @@
 
     const section = document.getElementById("download-section");
     const storeLink = document.getElementById("store-link");
+
+    console.log("Download Debug:", {
+  appleUrl,
+  androidUrl,
+  userAgent,
+  isAndroid,
+  isIOS,
+  sectionFound: !!section,
+  storeLinkFound: !!storeLink
+});
     
     // Set correct store link
     if (isAndroid) {
