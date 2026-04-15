@@ -108,22 +108,26 @@
 
 <script>
   (function () {
+
+    const isMobile = isAndroid || isIOS;
+    if (!isMobile) {
+      // no need to be in the function if the section will remain hidden
+      return;
+    }
+    
     const appleUrl = "https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778";
     const androidUrl = "https://play.google.com/store/apps/details?id=com.swapmatch.app";
 
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const isAndroid = /android/i.test(userAgent);
     const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
-    const isMobile = isAndroid || isIOS;
 
     const section = document.getElementById("download-section");
     const storeLink = document.getElementById("store-link");
-
-    if (isMobile) {
-      section.style.display = "block";
-      return;
-    }
-
+    
+    // Show the download link for mobile devices
+    section.style.display = "block";
+    
     // Set correct store link
     if (isAndroid) {
       storeLink.href = androidUrl;
