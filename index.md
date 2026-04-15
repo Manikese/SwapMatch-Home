@@ -101,13 +101,7 @@
 <script>
   (function () {
 
-    const isMobile = isAndroid || isIOS;
-    if (!isMobile) {
-      console.log('setting display to none'); // Logs a message
-      // no need to be in the function if the section will remain hidden
-      section.style.display = "none";
-      return;
-    }
+
     
     const appleUrl = "https://apps.apple.com/us/app/swapmatch-find-who-you-need/id6761496778";
     const androidUrl = "https://play.google.com/store/apps/details?id=com.swapmatch.app";
@@ -119,7 +113,10 @@
     const section = document.getElementById("download-section");
     const storeLink = document.getElementById("store-link");
 
-    console.log("Download Debug:", {
+    const isMobile = isAndroid || isIOS;
+
+console.log("Download Debug:", {
+      isMobile,
   appleUrl,
   androidUrl,
   userAgent,
@@ -129,6 +126,13 @@
   storeLinkFound: !!storeLink
 });
     
+    if (!isMobile) {
+      console.log('setting display to none'); // Logs a message
+      // no need to be in the function if the section will remain hidden
+      section.style.display = "none";
+      return;
+    }
+
     // Set correct store link
     if (isAndroid) {
       storeLink.href = androidUrl;
